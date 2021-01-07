@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CarGallery.Entities.Concrete
 {
-    public class Car
+    public class Car : IEntity
     {
         public int CarId { get; set; }
         public string Model { get; set; }
